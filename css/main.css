@@ -157,8 +157,10 @@ h2.question {
 }
 
 label {
+  color: #444;
   display: inline-block;
   font-size: 1.2rem;
+  font-weight: bold;
   width: 100%;
 }
 
@@ -172,18 +174,24 @@ label {
   border: 1px solid #ccc;
 }
 
-#result {
+.result {
   border: 1px solid #999;
   margin: 24px 0;
   padding: 24px;
 }
 
-#result h3 {
-
+#result-title {
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
 }
 
-#result p {
+#result-heading {
+  font-size: 18px;
+}
 
+#result-text {
+  font-size: 0.9rem;
 }
 
 /* sidebar styles */
